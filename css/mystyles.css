@@ -1,0 +1,15 @@
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+.darkcolor{
+    background-color: navy !important;
+}
+.lightercolor{
+    color: rgb(79, 79, 179) !important;
+}
+.logo-name {
+    display: block !important;
+    font-size: 16px !important;
+    text-align: center !important;
+    margin-top: 5px !important;
+}

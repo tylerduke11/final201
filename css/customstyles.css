@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(210, 247, 250);
+    color: rgb(34, 31, 31);
+    line-height: 1.6;
+}
+a{
+    color: rgb(22, 111, 206);
+}
+a:visited{
+    color: rgb(154, 58, 232);
+}
+img {
+    display: block;
+    padding: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.main-header{
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Impact', sans-serif;
+}
+.header {
+    text-decoration: underline;
+    font-size: 1.75em;
+    margin-bottom: 0.5em;
+}
+
+
+/* Define a CSS class for the box style */
+.menu-box {
+    display: block;
+    border: 1px solid #333;
+    background-color: #ffffff; /* changed to a white background */
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    width: max-content; 
+    font-family: 'Arial', sans-serif;
+}
+.menu-box ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; 
+}
+.menu-box li {
+    padding: 8px 15px;
+    display: inline; 
+}
+.menu-box a {
+    text-decoration: none; 
+    color: #333; 
+    font-size: 1rem; 
+}
+.menu-box a:hover {
+    color: #0066cc; 
+}
+
+/* update the video styles */
+.video-container {
+    margin-bottom: 40px;
+}
+
+/* Define a CSS class for the image style */
+.image-container {
+    display: flex;
+    justify-content: space-around; 
+    margin-bottom: 20px;
+}
+.image-container figure {
+    width: 30%; 
+    margin: 0; 
+    text-align: center;
+}
+.image-container img {
+    width: 100%; 
+    height: auto; 
+    padding: 4px;
+}
+.image-container figcaption {
+    font-style: italic; 
+    margin-top: 8px;
+}
+
+/* Style the container of the Tableau iframe */
+.tableau-container {
+    margin: auto; 
+    border-radius: 8px; 
+}
